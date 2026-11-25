@@ -4,26 +4,26 @@ require "tmpdir"
 class Lattice < Formula
   desc "Local-first engineering memory and workflow"
   homepage "https://lattice.qcqx.cn"
-  version "1.30.2"
+  version "1.30.3"
   license "MIT"
   on_macos do
     on_arm do
-      url "https://github.com/qxchuckle/lattice/releases/download/v1.30.2/lattice-1.30.2-darwin-arm64.tar.gz", using: :nounzip
-      sha256 "806738c694bbb759ed8539a3cffac8efa2b9c7ecf5b6c7b1b1e88a57da564d3d"
+      url "https://github.com/qxchuckle/lattice/releases/download/v1.30.3/lattice-1.30.3-darwin-arm64.tar.gz", using: :nounzip
+      sha256 "cdce34f8ba0ece2158d8c2ddcf85f157ded0561d952155bdd47e3a3f7a9449a8"
     end
     on_intel do
-      url "https://github.com/qxchuckle/lattice/releases/download/v1.30.2/lattice-1.30.2-darwin-x64.tar.gz", using: :nounzip
-      sha256 "3bf0b7390a72dcbc0d6df7f1fe8acbb55ea26827acd700406999ce468cd95e5f"
+      url "https://github.com/qxchuckle/lattice/releases/download/v1.30.3/lattice-1.30.3-darwin-x64.tar.gz", using: :nounzip
+      sha256 "2a0faca25cd58f462296c7500d3f094f06a3a0712a56d15c4bf9512cc94af20f"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/qxchuckle/lattice/releases/download/v1.30.2/lattice-1.30.2-linux-arm64.tar.gz", using: :nounzip
-      sha256 "1f35ec5d60d28f5c51c4c24d0eef29eeb14915e03f637308ee8f65d82a0009d9"
+      url "https://github.com/qxchuckle/lattice/releases/download/v1.30.3/lattice-1.30.3-linux-arm64.tar.gz", using: :nounzip
+      sha256 "e0f8f2aa8c3c1de00df8a18f8e262a67017980cfb4e09d88f461f5a1d67f0638"
     end
     on_intel do
-      url "https://github.com/qxchuckle/lattice/releases/download/v1.30.2/lattice-1.30.2-linux-x64.tar.gz", using: :nounzip
-      sha256 "ac2828245c914bf06b5217a04d30c9e5ecf97dc016e82fd211e5858883ac15a0"
+      url "https://github.com/qxchuckle/lattice/releases/download/v1.30.3/lattice-1.30.3-linux-x64.tar.gz", using: :nounzip
+      sha256 "f8606395ab91bdd963f26058e29a878e1e9c0731f72c3714b9170a266253c576"
     end
   end
 
